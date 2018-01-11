@@ -17,6 +17,7 @@
 					<hr>
 					<p class="card-text"><a href="<?=base_url('download/').$task['attached_file']?>" target="_blank">Fazer download do anexo</a></p>
 				<?php endif ?>
+				<p class="card-text">Código: <?=$task['code']?></p>
 				<hr>
 				<form method="post">
 					<input type="hidden" name="id" value="<?=$task['id']?>">

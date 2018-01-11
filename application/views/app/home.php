@@ -14,6 +14,7 @@
 			<div class="card-body">
 				<h2 class="card-title"><?=$task['name']?></h2>
 				<p class="card-text"><?=$task['description']?></p>
+				<p class="card-text">Código: <?=$task['code']?></p>
 				<p class="card-text">Autor: <?=$task['user_name']?></p>
 				<?php if (!empty($task['attached_file'])): ?>
 					<hr>
